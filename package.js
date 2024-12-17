@@ -87,7 +87,7 @@
         "qrcode-terminal": "^0.12.0",
         "qs": "^6.10.1",
         "remove-bg-node": "1.0.3",
-        "Sachibot-Spotifydl": "git+https://github.com/AlenVelocity/spotifydl-core.git",
+        "insightstech-Spotifydl": "git+https://github.com/Immanuel999-felix/spotifydl-core.git",
         "scr-emoji": "0.0.3",
         "seedr": "^1.1.2",
         "simple-git": "3.22.0",
