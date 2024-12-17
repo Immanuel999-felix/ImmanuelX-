@@ -41,7 +41,7 @@
 ## 🙂 **`Immanuelx-MD BOT OWNER,`** 🥲
 
 
-   <a href="https://github.com/immanuel999-felix/"><img src="https://avatars.githubusercontent.com/u/106251140?v=4" width=80 height=80></a>   
+   <a href="https://github.com/immanuel999-felix/"><img src="https://files.catbox.moe/d6y9zr.jpeg" width=80 height=80></a>   
 
 ---
 
