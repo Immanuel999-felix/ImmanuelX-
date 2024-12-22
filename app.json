@@ -1,0 +1,32 @@
+{
+  "name": "my-whatsapp-bot",
+  "description": "A WhatsApp bot built using Baileys",
+  "repository": "https://github.com/your-username/your-repo-name",
+  "logo": "https://files.catbox.moe/d6y9zr.jpeg",
+  "keywords": ["node", "whatsapp", "bot", "baileys"],
+  "env": {
+    "SESSION_ID": {
+      "description": "The session ID for WhatsApp authentication",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "The owner's WhatsApp number",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix for the bot",
+      "required": false,
+      "value": "."
+    }
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": []
+}
