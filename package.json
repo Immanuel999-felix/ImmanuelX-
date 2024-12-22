@@ -10,6 +10,8 @@
     "dotenv": "^16.0.3", 
     "ytdl-core": "^4.10.0",
     "yt-search": "^2.10.0",
-    "pino": "^8.0.0"
+    "pino": "^8.0.0",
+    "chalk": "^5.0.0",  // For colored logs, if used in your script
+    "readline-sync": "^1.4.0"  // For synchronous user input (if readline is not available in your Node.js version)
   }
 }
