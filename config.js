@@ -1,6 +1,9 @@
+require('dotenv').config();
+
 module.exports = {
-    SESSION_ID: 'YOUR_SESSION_ID', // Replace with your actual session ID
-    ownerNumber: ['2349126807818'], // Add more numbers if needed
-    botName: 'Immanuelx-MD',
-    prefix: '.', // Command prefix
+    SESSION_ID: process.env.SESSION_ID,
+    ownerNumber: [process.env.OWNER_NUMBER],
+    botName: process.env.BOT_NAME || 'Immanuel999-bot-MD',
+    prefix: process.env.PREFIX || '.'
 };
+
