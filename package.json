@@ -6,7 +6,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0",
+    "@whiskeysockets/baileys": "^6.6.0",
     "ytdl-core": "^4.10.0",
     "yt-search": "^2.10.0",
     "pino": "^8.0.0"
