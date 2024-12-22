@@ -1,6 +1,6 @@
 <br>
 
-## IMMANUELX-MD 👨‍💻 🇱🇰 - A Javascript WhatsApp User Bot
+## IMMANUELX-MD 👨‍💻 🇳🇬 - A Javascript WhatsApp User Bot
 
 <br>
 
