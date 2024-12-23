@@ -1,32 +1,76 @@
 {
-  "name": "immanuelx-md",
-  "description": "A WhatsApp bot built using Baileys",
-  "repository": "https://github.com/Immanuel999-felix/ImmanuelX-.git",
+  "name": "IMMANUELX-MD",
+  "description": "WhatsApp Bot Using Lib Baileys",
+  "repository": "",
   "logo": "https://files.catbox.moe/d6y9zr.jpeg",
-  "keywords": ["node", "whatsapp", "bot", "baileys"],
+  "keywords": ["multi-device"],
+  "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Standard-2X"
+    }
+    },
   "env": {
     "SESSION_ID": {
-      "description": "The session ID for WhatsApp authentication",
+      "description": "Enter session id here; must start with IMMANUELX-MD~",
       "required": true
+    },
+    "BOT_NAME": {
+      "value": "IMMANUELX-MD",
+      "description": "Bot Name",
+       "required": true 
     },
     "OWNER_NUMBER": {
-      "description": "The owner's WhatsApp number",
-      "required": true
+      "value": "2349126807818",
+      "description": "Owner Number",
+       "required": true
+    },
+    "OWNER_NAME": {
+      "value": "𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙",
+      "description": "Owner Name",
+       "required": true
+    },
+    "PACK_NAME": {
+      "value": "𝘼𝙃𝙃𝙈𝙄 𝙆𝙐𝙉",
+      "description": "Sticker Package Name",
+       "required": false
+    },
+    "AUTHOR_NAME": {
+      "value": "MΛDΣ BY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿",
+      "description": "Sticker Author Name",
+       "required": false
     },
     "PREFIX": {
-      "description": "Command prefix for the bot",
-      "required": false,
-      "value": "."
+      "value": ".",
+      "description": "Bot Prefix",
+       "required": true
+    },
+    "PREMIUM_NUMBER": {
+      "value": "2349126807818",
+      "description": "Premium User IDs (comma-separated)",
+      "required": true
+    },
+    "MENU_TYPE": {
+      "value": "v2",
+      "description": "Menu Type (v1/v2)",
+       "required": false
+    },
+    "AUTOBLOCK_COUNTRYCODE": {
+      "value": "212",
+      "description": "Auto-Block Country Code",
+       "required": false
+    },
+    "ANTIFOREIGN_COUNTRYCODE": {
+      "value": "234",
+      "description": "Anti-Foreign Number Country Code",
+       "required": false
     }
   },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
-  "addons": []
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+    { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
+  ]
 }
