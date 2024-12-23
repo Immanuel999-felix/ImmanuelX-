@@ -1,7 +1,7 @@
 {
   "name": "IMMANUELX-MD",
   "description": "WhatsApp Bot Using Lib Baileys",
-  "repository": "",
+  "repository": "https://github.com/Immanuel999-felix/ImmanuelX-.git",
   "logo": "https://files.catbox.moe/d6y9zr.jpeg",
   "keywords": ["multi-device"],
   "stack": "container",
@@ -27,17 +27,17 @@
        "required": true
     },
     "OWNER_NAME": {
-      "value": "𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙",
+      "value": "𝙄𝙈𝙈𝘼𝙉𝙐𝙀𝙇 𝙁𝙀𝙇𝙄𝙓",
       "description": "Owner Name",
        "required": true
     },
     "PACK_NAME": {
-      "value": "𝘼𝙃𝙃𝙈𝙄 𝙆𝙐𝙉",
+      "value": "𝙄𝙉𝙎𝙄𝙂𝙃𝙏𝙎 𝙏𝙀𝘾𝙃",
       "description": "Sticker Package Name",
        "required": false
     },
     "AUTHOR_NAME": {
-      "value": "MΛDΣ BY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿",
+      "value": "MΛDΣ BY 𝙄𝙈𝙈𝘼𝙉𝙐𝙀𝙇 𝙁𝙀𝙇𝙄𝙓",
       "description": "Sticker Author Name",
        "required": false
     },
